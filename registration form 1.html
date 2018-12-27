@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+    <head>>
+        <title> Reg form   </title>
+      
+    </head>
+    <body> 
+    <center>
+        <form name="fRegistration" id="fRegistartion" method="POST" action="http://www.google.com">
+         <table border="1" style="text-align: center ; background-color:bisque; color: black ">
+            <thead>
+                <tr><th colspan="2"> REGISTRATION FORM !!</th></tr>
+            </thead>
+            
+            <tbody>
+                <tr><td><label> Name </label></td>
+               <td><input type="text" name="tname"  id="tname" required /></td></tr>
+                
+                <tr><td><label> Password </label></td>
+                <td><input type="password" name="tpassword" id="tpassword" required /></td></tr>
+                
+                                
+                <tr><td><label>  Confirm Password </label></td>
+                <td><input type="password" name="tconfirm" id="tconfirm" required /></td></tr>
+                
+                      <tr><td><label>  Address </label></td>
+                          <td> <textarea name="taddress" id="taddress" rows="6" cols="10"> </textarea></td></tr>
+                
+                
+                <tr><td><label>  Age </label></td>
+                    <td> <input type="number" name="tage" id="tage" max="60" min="20"/></td></tr>
+                
+                <tr><td><label>  DOB </label></td>
+                    <td> <input type="date" name="tdob" id="tdob"/></td></tr>
+                
+                      <tr><td><label>  Email </label></td>
+                    <td> <input type="email" name="temail" id="temail"/></td></tr>
+                      
+                            <tr><td><label>  Mobile </label></td>
+                    <td> <input type="text" name="tmobile" id="tmobile"/></td></tr>
+                      
+                      <tr><td><label>  Qualifiaction </label></td>
+                                  <td> <select>
+                                          <option value="MD">Madhyamik</option>  
+                                          <option value="H">HS</option>
+                                    <option value="G">Graduation</option>
+                              <option value="P">Post-Graduate</option>
+                                  <option value="M">Masters</option>
+                                  <option value="D">Doctorate</option>
+                              </select></td></tr>
+                      
+                        
+                      <tr><td><label> Hobbies </label></td> <td>
+   <input type="checkbox" name="tHobbies[]" id="tHobbies1" value="T"/> Trekking
+   <input type="checkbox" name="tHobbies[]" id="tHobbies2" value="SL" />Sleeping
+   <input type="checkbox" name="tHobbies[]" id="tHobbies3" value="C"/>Cooking
+   <input type="checkbox" name="tHobbies[]" id="tHobbies4" value="D" />Dancing
+   <input type="checkbox" name="tHobbies[]" id="tHobbies5" value="S"/>Singing
+   <input type="checkbox" name="tHobbies[]" id="tHobbies6"value="R"/> Reading
+
+        </td></tr>
+  
+     <tr><td><label>  Gender </label></td>
+   <td> Male<input type="radio" name="tgender" id="tgender1" value="M"/>
+       Female<input type="radio" name="tgender" id="tgender2" value="F"/>
+   </td></tr>
+     
+      <tr><td><label>  Photo </label></td>
+   <td> <input type="file" name="tphoto" id="tphoto"/>
+       
+      <tr><td><button type="submit">Register</button>  </td>
+        <td>
+            <button type="reset">Clear</button>  
+      <button type="button">Close</button>  </td></tr>
+        </tbody>
+        <tfoot>
+            <tr><th colspan="2">&COPY;&REG Learn HTML</th></tr>
+        </tfoot>
+         </table> </form>
+    </center>
+    </body>
+
+    </html>
